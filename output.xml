@@ -3,36 +3,23 @@
 	<Books>
 		<Book id="1" price="7.95">
 			<Title>Do Androids Dream of Electric Sheep?</Title>
-			<Author>Philip K. Dick</Author>
 			<quote-block>
-				<Title>CAT</Title>
-				<Author>Meow</Author>
-			</quote-block>
-		</Book>
-		<Book id="5" price="5.95">
-			<Title>The Colour of Magic</Title>
-			<Author>Terry Pratchett</Author>
-			<Title>BEHARA</Title>
-		</Book>
-		<Book id="7" price="6.95">
-			<Title>The Eye of The World</Title>
-			<Author>Robert Jordan</Author>
-			<quote-block>
-				<Title>DOG 4</Title>
+				<Title>DOG 1</Title>
 				<Author>Bow</Author>
 			</quote-block>
 		</Book>
 		<Book>
-			<Title>DOG 1</Title>
-			<Author>Bow</Author>
-		</Book>
-		<Book>
-			<Title>DOG 2</Title>
-			<Author>Bow</Author>
-		</Book>
-		<Book>
-			<Title>DOG 3</Title>
-			<Author>Bow</Author>
+			<quote>
+				<Title>PART-2</Title>
+				<Author>BOW</Author>
+			</quote>
+			<quote>
+				<Title>PART-1</Title>
+				<Author>
+					<citie>BAHUBALI</citie>
+					<citie>BAHUBALI-2</citie>
+				</Author>
+			</quote>
 		</Book>
 	</Books>
 </Catalog>

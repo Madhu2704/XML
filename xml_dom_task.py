@@ -27,8 +27,9 @@ def addNewBook(all_sub_elements):
         Books = root.find("Books")
         Book = ET.SubElement(Books, 'Book')
         for subelement in all_sub_elements:
-            new_element = ET.SubElement(Book, subelement.tag)
-            new_element.text = subelement.text
+            Book.insert(0, subelement)
+            # new_element = ET.SubElement(Book, subelement.tag)
+            # new_element.text = subelement.text
 
 
 # result = len(root.findall(".//*"))
@@ -41,7 +42,7 @@ for book in tree.findall('Books/Book'):
             counter += 1
             if counter >= 2:
                 all_sub_elements = []
-                for subchild in children.findall(".//"):
+                for subchild in children.findall("./*"):
                     print(
                         f'COUNTER:{counter} children:{book.attrib["id"]} subchild:{subchild.tag}')
                     all_sub_elements.append(subchild)
